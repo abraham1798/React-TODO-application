@@ -28,7 +28,7 @@ export function Home() {
 		<div className="container">
 			<div className="shadow-lg p-3 mb-5 bg-white rounded">
 				<h1 className="text-center">
-					Bucket list <i className="fab fa-wpexplorer"></i>
+					Pendientes lista <i className="fab fa-wpexplorer"></i>
 				</h1>
 			</div>
 
@@ -39,7 +39,7 @@ export function Home() {
 				<div className="col-8">
 					<div className="shadow-lg p-3 mb-5 bg-white rounded">
 						<h4 className="text-center">
-							Cosas que me gustaria hacer.{" "}
+							Cosas por hacer.{" "}
 							<i className="fas fa-feather-alt"></i>{" "}
 						</h4>
 					</div>
@@ -63,13 +63,13 @@ export function Home() {
 				</div>
 				<div className="col-4 ">
 					<h4 className="text-center ">
-						Nunca pares de soñar. <i className="fab fa-grav"></i>
+						Tarea por recordar. <i className="fab fa-grav"></i>
 					</h4>
 					<form onSubmit={agregarTarea}>
 						<input
 							type="text"
 							className="form-control mb-2 shadow"
-							placeholder="Sueña en grande..."
+							placeholder="Recordar para nunca olvidar..."
 							onChange={e => setTarea(e.target.value)}
 							value={tarea}
 						/>

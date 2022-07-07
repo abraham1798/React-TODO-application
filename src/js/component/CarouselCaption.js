@@ -37,7 +37,7 @@ export function CarouselCaption() {
 					<div className="carousel-item">
 						<img
 							className="d-block w-100"
-							src="https://middleeast.cummins.com/sites/cme/files/cummins-locations-cme-900x300.jpg"
+							src="http://www.caregivingclub.com/wp-content/uploads/2011/03/sunset-and-light-bulb-LG-900x300.jpg"
 							alt="Second slide"
 						/>
 						<div className="carousel-caption d-none d-md-block">
